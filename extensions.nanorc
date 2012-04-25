@@ -16,6 +16,7 @@ icolor brightgreen "^[[:space:]]*same[[:space:]]*(=|=>)[[:space:]]*[[:alnum:]]+(
 icolor brightyellow "^[[:space:]]*same[[:space:]]*(=|=>)[[:space:]]*[[:alnum:]]+(\([[:alnum:]_-]+\))?,"
 icolor yellow "^[[:space:]]*same[[:space:]]*(=|=>)[[:space:]]*[[:alnum:]]+"
 icolor white "^[[:space:]]*same[[:space:]]*(=|=>)[[:space:]]*"
+icolor brightmagenta "\$\{[^}]+\}"
 ## Special chars
 icolor white "[,()/]"
 ## Session headers
