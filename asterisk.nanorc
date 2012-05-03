@@ -1,0 +1,15 @@
+## Here is an example for asterisk.conf files
+##
+syntax "asterisk" ".*\.conf"
+## settings
+icolor brightgreen "^[[:space:]]*[[:alnum:]_-]+[[:space:]]*(=|=>).*$"
+icolor brightwhite "^[[:space:]]*[[:alnum:]_-]+[[:space:]]*(=|=>)"
+icolor white "(=|=>)"
+## Session headers
+icolor brightred "^[[:space:]]*\[[[:alnum:]_-]+\]\(!\)"
+icolor brightyellow "^[[:space:]]*\[[[:alnum:]_-]+\]\([[:alnum:]_-]+\)"
+icolor brightblue "^[[:space:]]*\[[[:alnum:]|_-]+\]"
+## Operators
+## Comments
+icolor cyan ";.*$"
+
