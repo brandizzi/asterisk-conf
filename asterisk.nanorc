@@ -12,4 +12,7 @@ icolor brightblue "^[[:space:]]*\[[[:alnum:]|_-]+\]"
 ## Operators
 ## Comments
 icolor cyan ";.*$"
-
+## Includes etc.
+icolor brightyellow "^[[:space:]]*#(include)"
+## Includes etc.
+icolor brightyellow "^[[:space:]]*\#(include)"
