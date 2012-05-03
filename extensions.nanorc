@@ -1,6 +1,6 @@
 ## Here is an example for asterisk.conf files
 ##
-syntax "extensions.conf" "extensions\.conf"
+syntax "extensions.conf" "extensions.*\.conf"
 ## settings
 icolor brightgreen "^[[:space:]]*[[:alnum:]_-]+[[:space:]]*(=|=>).*$"
 icolor brightwhite "^[[:space:]]*[[:alnum:]_-]+[[:space:]]*(=|=>)"
